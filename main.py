@@ -33,7 +33,7 @@ def home():
     encoded_img = base64.b64encode(data.getvalue())
     decoded_img = encoded_img.decode('utf-8')
     img_data = f"data:image/jpeg;base64,{decoded_img}"
-    return render_template('afterhome.html', data=[prediction,img_data])
+    return render_template('afterhome.html', data=[pred,img_data])
     #return render_template('after.html', data=pred)
 
 
