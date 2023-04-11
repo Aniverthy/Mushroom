@@ -5,7 +5,7 @@ from PIL import Image
 import io
 import base64
 
-model = load_model('xception.h5') #loading the model
+model = load_model('MobileNetV2.h5') #loading the model
 class_names=['Blue Oyster Mushroom',
  'Caterpillar Fungus',
  'King Oyster Mushroom',
